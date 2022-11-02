@@ -1,5 +1,5 @@
  /* Hele pagina  */
- * {
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -115,32 +115,28 @@
 	height: 100vh;
 	width: 80vw !important;
 	right: 0;
+	background-color: black;
 	color: white;
 	display: grid;
 	grid-auto-flow: column;
 }
 
+.heroimage { 
+	margin: auto;
+}
 
-.column {
-    margin-top: 9em;
-    margin-left: 10em;
-    float: left;
-    width: 25%; 
-    padding: 0 10px;
-  }
-  
-  /* Remove extra left and right margins, due to padding in columns */
-  .row {margin: 0 -5px;}
-  
+.herotekst {
+	margin: auto;
+}
 
-  
-  /* Style the counter cards */
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-    padding: 16px;
-    text-align: center;
-    background-color: black;
-  }
+
+.herobutton {
+	font-size: 40px;
+	background-image: linear-gradient(120deg, RGB(227,28,121), rgb(0, 208, 255));
+	border-radius: 5px;
+	margin-left: 1em;
+	background-color: red;
+}
 
 
 
@@ -154,21 +150,15 @@
 	}
 }
 
-    @media (max-width: 768px) {
+@media (max-width: 768px) {
 	.menu-toggle {
 		display: block;
-	} 
+	}
 	.hero {
 		width: 100vw !important;
 		grid-auto-flow: row;
 	}
 
-
-    .column {
-        width: 100%;
-        display: block;
-        margin-bottom: 20px;
-      }
 	.sidebar {
 		position: fixed;
 		top: 0;
@@ -176,7 +166,7 @@
 		height: 100vh;
 		width: 100%;
 		max-width: 300px;
-	} */
+	}
 
 
 	.sidebar.is-active {

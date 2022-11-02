@@ -1,5 +1,5 @@
  /* Hele pagina  */
-* {
+ * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -8,6 +8,7 @@
 .app {
 	display: flex;
 	min-height: 100vh;
+	background-image: linear-gradient(120deg, RGB(227,28,121), rgb(0, 208, 255));
 }
 
 /* Einde hele pagina */
@@ -110,33 +111,42 @@
 /* Einde hamburger menu */
 
 /* Hero */
-
-.hero {
-	height: 100vh;
-	width: 80vw !important;
-	right: 0;
-	background-color: black;
-	color: white;
-	display: grid;
-	grid-auto-flow: column;
-}
-
-.heroimage { 
-	margin: auto;
-}
-
-.herotekst {
-	margin: auto;
+.container {
+    margin: 0 auto;
+    padding: 5%;
 }
 
 
-.herobutton {
-	font-size: 40px;
-	background-image: linear-gradient(120deg, RGB(227,28,121), rgb(0, 208, 255));
-	border-radius: 5px;
-	margin-left: 1em;
-	background-color: red;
+input, textarea, label {
+    display: block;
+    width: 100%;
+	font-weight: bold;
+	
 }
+
+input, textarea {
+    border: 0px;
+    border-bottom: 5px solid #828282;
+}
+
+input[type=submit] {
+    background-color: #545557;
+    padding: 15px 0;
+    font-size: 18px;
+    border-bottom: none;
+    margin-top: 30px;
+
+}
+
+input, textarea {
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+
+
 
 /* Eind hero */
 
