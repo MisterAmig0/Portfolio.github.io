@@ -162,6 +162,11 @@
         overflow-y: visible;
 		display: block;
 	}
+
+	.heroproject {
+		margin-inline: auto;
+		padding: 0;
+	}
 	.hero {
 		width: 100vw !important;
 		grid-auto-flow: row;

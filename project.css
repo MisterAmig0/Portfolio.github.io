@@ -112,35 +112,25 @@
 /* Hero */
 
 .hero {
-	min-height: 100vh;
+	height: 100vh;
 	width: 80vw !important;
-	right: 0;
-	color: white;
+	right: 0;   
 	display: grid;
 	grid-auto-flow: column;
 }
 
+.shine {
+    padding-top: 5em;
+    padding-left: 15em;
+}
 
-.column {
-    margin-top: 9em;
-    margin-left: 10em;
+.text {
+    padding-top: 4em;
+}
+
+.image{
     float: left;
-    width: 25%; 
-    padding: 0 10px;
-  }
-  
-  /* Remove extra left and right margins, due to padding in columns */
-  .row {margin: 0 -5px;}
-  
-
-  
-  /* Style the counter cards */
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-    padding: 16px;
-    text-align: center;
-    background-color: black;
-  }
+}
 
 
 
@@ -154,21 +144,25 @@
 	}
 }
 
-    @media (max-width: 768px) {
+@media (max-width: 768px) {
 	.menu-toggle {
 		display: block;
-	} 
+	}
 	.hero {
 		width: 100vw !important;
 		grid-auto-flow: row;
+        margin-inline: auto;
+	}
+
+	.shine {
+		padding: 0;
 	}
 
 
-    .column {
-        width: 100%;
-        display: block;
-        margin-bottom: 20px;
-      }
+    .text {
+		padding-top: 12em;
+    }
+
 	.sidebar {
 		position: fixed;
 		top: 0;
@@ -176,7 +170,7 @@
 		height: 100vh;
 		width: 100%;
 		max-width: 300px;
-	} */
+	}
 
 
 	.sidebar.is-active {

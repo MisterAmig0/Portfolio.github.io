@@ -5,3 +5,4 @@ menu_toggle.addEventListener('click', () => {
     menu_toggle.classList.toggle('is-active');
     sidebar.classList.toggle('is-active');
 });
+
