@@ -7,7 +7,7 @@
 
 .app {
 	display: flex;
-	height: 100vh;
+	min-height: 100vh;
 }
 
 /* Einde hele pagina */
@@ -110,7 +110,7 @@
 /* Hero */
 
 .hero {
-	height: 100vh;
+	min-height: 100vh;
 	width: 80vw !important;
 	right: 0;
 	display: grid;
