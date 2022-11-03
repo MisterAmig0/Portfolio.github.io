@@ -8,6 +8,7 @@
 	<script src="https://kit.fontawesome.com/63dd24c8b5.js" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="css/aboutm.css">
 </head>
+<script> </script>
 <body>
 	<div class="app">
 		<div class="menu-toggle">
@@ -18,30 +19,31 @@
 
 		<aside class="sidebar">
 
-			<a href="inde.html"><img src="images/s.jpg" alt="" class="navimage"></a>
+			<a href="index.html"><img src="images/s.jpg" alt="" class="navimage"></a>
 
 			
 			<nav class="menu">
                 
-				<a href="inde.html" class="menu-item">Home</a>
-				<a href="aboutme.html" class="menu-item is-active">About me</a>
-				<a href="project.html" class="menu-item">Projects</a>
-				<a href="contactme.html" class="menu-item">Contact me</a>
-				<a href="aboutme_dutch.html" class="menu-item"> <strong>Dutch page</strong></a>
-
+				<a href="index.html" class="menu-item home">Home</a>
+				<a href="aboutme.html" class="menu-item aboutme is-active">About me</a>
+				<a href="project.html" class="menu-item project">Projects</a>
+				<a href="contactme.html" class="menu-item contact">Contact me</a>
+				<p class="menu-item languageSelector" language="dutch"><strong>Dutch page</strong></p>
+				<p class="menu-item languageSelector" language="english" style="margin-top:-2em;"><strong>English</strong></p>
 				<div class="icons">
 					<a href="https://github.com/MisterAmig0" target="_blank" style="color: white"><i class="fa-brands fa-github"></i></a> 
 					<a href="https://www.instagram.com/samsingels/" target="_blank" style="color: white"><i class="fa-brands fa-square-instagram"></i></a>
 					<a href="mailto:s.singels@sintlucasedu.nl" target="_blank" style="color: white"><i class="fa-solid fa-envelope"></i></a> 
 				</div>
+				
 			</nav>
 		</aside>
 
 		<div class="hero">
 			<div class="heroaboutme">	
-                <h1>About myself.</h1>
+                <h1 class="header">About myself.</h1>
                 <br>
-                <p>Hello! My name is Sam, 17 years old and I’m a starting developer. <br>
+                <p class="infomation">Hello! My name is Sam, 17 years old and I’m a starting developer. <br>
                     I’m a student on Sint Lucas and follow a course Software Development.<br> 
                     I live in Waalre near Eindhoven and lived there for my whole life. <br> <br>
                     Futhermore, I like to full stack developing, so I can do everything that is needed. <br>
@@ -53,7 +55,7 @@
 			
             <div class="heroproject">
                 <figure>
-                    <h1>This project.</h1>
+                    <h1 class="header2">This project.</h1>
                     <img src="images/s.jpg" alt="" class="">
                     <div class="fig-caption"><h3 class="margin">HTML</h3><h3 class="margin">CSS</h3><h3 class="margin">PHP</h3><h3 class="margin">JS</h3></div>
                 </figure>
@@ -62,6 +64,6 @@
 	</div>
 
 
-    <script src="js/main.js"></script>
-</body>
+    <script src="js/aboutme.js"></script>
+	</body>
 </html>

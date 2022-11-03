@@ -18,41 +18,43 @@
 
 		<aside class="sidebar">
 
-			<a href="inde.html"><img src="images/s.jpg" alt="" class="navimage"></a>
+			<a href="index.html"><img src="images/s.jpg" alt="" class="navimage"></a>
 
 			
 			<nav class="menu">
                 
-				<a href="inde.html" class="menu-item">Home</a>
-				<a href="aboutme.html" class="menu-item">About me</a>
-				<a href="project.html" class="menu-item">Projects</a>
-				<a href="contactme.html" class="menu-item  is-active">Contact me</a>
-				<a href="contactme_dutch.html" class="menu-item"> <strong>Dutch page</strong></a>
+				<a href="index.html" class="menu-item home">Home</a>
+				<a href="aboutme.html" class="menu-item aboutme">About me</a>
+				<a href="project.html" class="menu-item project">Projects</a>
+				<a href="contactme.html" class="menu-item contact is-active">Contact me</a>
+				<p class="menu-item languageSelector" language="dutch"><strong>Dutch page</strong></p>
+				<p class="menu-item languageSelector" language="english" style="margin-top:-2em;"><strong>English</strong></p>
 				<div class="icons">
 					<a href="https://github.com/MisterAmig0" target="_blank" style="color: white"><i class="fa-brands fa-github"></i></a> 
 					<a href="https://www.instagram.com/samsingels/" target="_blank" style="color: white"><i class="fa-brands fa-square-instagram"></i></a>
 					<a href="mailto:s.singels@sintlucasedu.nl" target="_blank" style="color: white"><i class="fa-solid fa-envelope"></i></a> 
 				</div>
+				
 			</nav>
 		</aside>
 
 		<div class="container">
-			<h1>Get in touch with me.</h1>
+			<h1 class="contactheader">Get in touch with me.</h1>
 			<br><br>
 			<form >
-				<label for="name">Name:</label>
+				<label for="name" class="contactname">Name:</label>
 				<input type="text" name="name" id="name">
-				<label for="email">Email:</label>
+				<label for="email" class="contactemail">Email:</label>
 				<input type="email" name="email" id="email">
-				<label for="subject">Subject:</label>
+				<label for="subject" class="contactsubject">Subject:</label>
 				<input type="text" name="subject" id="subject">
-				<label for="message">Message:</label>
+				<label for="message" class="contactmessage">Message:</label>
 				<textarea name="message" cols="30" rows="10"></textarea>
 				<input type="submit" value="Send">
 			</form>
 		</div>
 
 
-    <script src="js/main.js"></script>
+    <script src="js/contactme.js"></script>
 </body>
 </html>

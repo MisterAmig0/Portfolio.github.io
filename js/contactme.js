@@ -6,15 +6,17 @@ menu_toggle.addEventListener('click', () => {
     sidebar.classList.toggle('is-active');
 });
 
+
 const link = document.querySelectorAll('.languageSelector');
 const homeA = document.querySelector('.home');
 const aboutmeA = document.querySelector('.aboutme');
 const projectA = document.querySelector('.project');
 const contactA = document.querySelector('.contact');
-const herobuttonA = document.querySelector('.herobutton'); 
-const maininfoA = document.querySelector('.maininfo');
-const maininfo2A = document.querySelector('.maininfo2');
-const maininfo3A = document.querySelector('.maininfo3');
+const contactheaderA = document.querySelector('.contactheader');
+const contactnameA = document.querySelector('.contactname');
+const contactemailA = document.querySelector('.contactemail');
+const contactsubjectA = document.querySelector('.contactsubject');
+const contactmessageA = document.querySelector('.contactmessage');
 
 
 link.forEach(el => {
@@ -22,15 +24,15 @@ link.forEach(el => {
 
         const attr = el.getAttribute('language');
 
-
         homeA.textContent = data[attr].home;
         aboutmeA.textContent = data[attr].aboutme;
         projectA.textContent = data[attr].project;
         contactA.textContent = data[attr].contact;
-        herobuttonA.textContent = data[attr].herobutton;
-        maininfoA.textContent = data[attr].maininfo;
-        maininfo2A.textContent = data[attr].maininfo2;
-        maininfo3A.textContent = data[attr].maininfo3;
+        contactheaderA.textContent = data[attr].contactheader;
+        contactnameA.textContent = data[attr].contactname;
+        contactemailA.textContent = data[attr].contactemail;
+        contactsubjectA.textContent = data[attr].contactsubject;
+        contactmessageA.textContent = data[attr].contactmessage;
     });
 });
 
@@ -43,10 +45,11 @@ let data = {
         "aboutme": "About me", 
         "project": "Projects", 
         "contact": "Contact me", 
-        "herobutton": "Get in touch",
-        "maininfo": "I'm Sam student",
-        "maininfo2": "/ Web Developer",
-        "maininfo3": "Sint Lucas student and Font-End Developer",
+        "contactheader": "Get in touch with me.",
+        "contactname": "Name",
+        "contactemail": "Email",
+        "contactsubject": "Subject",
+        "contactmessage": "Message",
     }, 
 
     "dutch": 
@@ -56,8 +59,10 @@ let data = {
         "project": "Projecten", 
         "contact": "Contact mij",
         "herobutton": "Bereik mij",
-        "maininfo": "Ik ben Sam student",
-        "maininfo2": "/ Web Developer",
-        "maininfo3": "Sint Lucas student en Fond-End Developer",
+        "contactheader": "Laat uw bericht achter",
+        "contactname": "Naam",
+        "contactemail": "Email",
+        "contactsubject": "Onderwerp",
+        "contactmessage": "Bericht",
     }
 }
