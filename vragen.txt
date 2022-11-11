@@ -1,0 +1,17 @@
+(VRAGEN DOCENT)
+
+* Vragen of bij aboutme.css het beter kan dan al die lijnen code in
+* Feedback over alle pagina's 
+* Andere manier voor contact form dan payed server
+* Home page zwart onder 
+
+
+
+(To-Do)
+* Alle projecten github maken en link gooien
+* Beteren taal switchen
+* Zwart full size home page
+* About me fullen met nog iets 
+* Project page vullen met informatie
+* Contact form mooier en werkend 
+*
