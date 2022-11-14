@@ -8,7 +8,7 @@
 
 (To Do)
 
-(Home page)
+(Home page).
 * Button hover maken ook op home page
 * Buttons mooier maken 
 
