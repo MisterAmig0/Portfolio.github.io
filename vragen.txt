@@ -1,17 +1,37 @@
 (VRAGEN DOCENT)
 
-* Vragen of bij aboutme.css het beter kan dan al die lijnen code in
+
 * Feedback over alle pagina's 
 * Andere manier voor contact form dan payed server
-* Home page zwart onder 
+* Overflow uit maar dan Hamburger menu wel werkend
 
 
+(To Do)
 
-(To-Do)
+(Home page)
+* Button hover maken ook op home page
+* Buttons mooier maken 
+
+(Project page)
 * Alle projecten github maken en link gooien
-* Beteren taal switchen
-* Zwart full size home page
-* About me fullen met nog iets 
 * Project page vullen met informatie
+* Over foto heen is inzoom (Beetje)
+* Meer project onder de cards (Ander design) 
+
+(Contact me page)
 * Contact form mooier en werkend 
-*
+
+(about me page)
+* About me fullen met nog iets 
+
+(overig)
+* Alle scroll uit zetten en werkend
+* Beteren taal switchen 
+* Hamburg wanneer open in kruis veranderd
+
+
+
+(Done)
+* Zwart full size home page
+* kleuren geven aan talen 
+* Buttons mooier maken  

@@ -2,12 +2,7 @@
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
-}
-
-.app {
-	display: flex;
-	min-height: 100vh;
+	box-sizing: border-box;	
 }
 
 /* Einde hele pagina */
@@ -16,7 +11,7 @@
 /* Hero */
 
 .hero {
-	height: 100vh;
+	height: 102vh;
 	width: 80vw !important;
 	right: 0;
 	background-color: black;
@@ -39,15 +34,24 @@
 	background-image: linear-gradient(120deg, RGB(227,28,121), rgb(0, 208, 255));
 	border-radius: 5px;
 	margin-left: 1em;
+	transition-duration: 0.4s; 	
 	background-color: red;
+	padding: 10px;
 }
 
+
+.herobutton:hover {
+	background-color: #4CAF50; /* Green */
+	color: white;
+  }
 
 
 /* Eind hero */
 
 
 @media (max-width: 768px) {
+
+
 	.hero {
 		width: 100vw !important;
 		grid-auto-flow: row;

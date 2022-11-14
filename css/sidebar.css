@@ -61,10 +61,35 @@
 }
 
 
+
+.html { 
+	background-color: red;
+}
+
+.css {
+	background-color: blue;
+}
+
+.php {
+	background-color: purple;
+}
+
+.js {
+	background-color: yellow;
+}
+.bootstrap {
+	background-color: darkblue;
+}
+.python {
+	/* background-image: linear-gradient(120deg, RGB(227,28,121), rgb(0, 208, 255)); */
+	background-image: linear-gradient(150deg, rgb(75, 139, 190), rgb(255, 212, 59));
+}
+
+
 /* Einde sidebar */
 
 
-
+ /* Hamburger menu */
 
 .menu-toggle {
 	display: none;
@@ -76,9 +101,9 @@
 	border-radius: 99px;
 	background-color: #2e3047;
 	cursor: pointer;
+	
 }
 
- /* Hamburger menu */
 
 .hamburger {
 	position: relative;
